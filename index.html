@@ -53,7 +53,7 @@ $result = $conn->query($sql);
                         echo "<td>" . $row["email"]. "</td>";
                         echo "<td>" . $row["cinsiyet"]. "</td>";
                         echo "<td>";
-                        echo "<a href='edit.php?id=".$row["İd"]."' target='_blank'     ><button  class='btn btn-primary'>Düzenle</button></a>";
+                        echo "<a href='create.html?id=".$row["İd"]."' target='_blank'     ><button  class='btn btn-primary'>Düzenle</button></a>";
                         echo "<a href='delete.php?id=".$row["İd"]."' ><button class='btn btn-danger'>Sil</button></a>";
                         echo "</td>";
                         echo "</tr>";
